@@ -82,11 +82,11 @@ h1 {
 
 #list-area {
     background: $white;
+    border: 2px solid $black;
+    border-top: 0;
 
     tbody {
         border-top: 0;
-        border-left: 2px solid $black;
-        border-right: 2px solid $black;
     }
 
     .topic-list {
@@ -94,6 +94,7 @@ h1 {
 
         thead {
             background-color: $yellow;
+            border: 2px solid $yellow;
 
             tr {
                 border-bottom: 0;
@@ -116,11 +117,6 @@ h1 {
 
     .footer-message {
         padding: 10px;
-        border: 2px solid $black;
-        border-top: 0;
     }
 
-    .topic-list-bottom {
-        margin-top: 0;
-    }
 }
