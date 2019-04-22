@@ -54,7 +54,7 @@ body {
     text-align: center;
     position: relative;
     font-family: $font1;
-    font-weight: bold;
+    font-weight: 700;
 
     &:after {
         position: absolute;
@@ -75,4 +75,9 @@ body {
         background-color: $dark-blue;
         top: 0;
     }
+}
+
+h1 {
+    font-family: $font1;
+    font-weight: 700;
 }
