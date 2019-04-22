@@ -43,7 +43,6 @@ h1 {
 .nav-pills {
     a {
         border-radius: 50px;
-        padding: 10px 20px !important;
         border: 2px solid transparent !important;
 
         &:hover,
@@ -63,7 +62,6 @@ h1 {
 
 button {
     border-radius: 50px;
-    padding: 10px 20px !important;
     background-color: $dark-red !important;
     color: $white !important;
     border: 2px solid $dark-red !important;
@@ -87,7 +85,6 @@ button {
 
 .select-kit-header {
     border-radius: 50px;
-    min-height: 41px !important;
 }
 
 //header
