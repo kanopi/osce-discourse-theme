@@ -162,15 +162,22 @@ button {
 
                     .bulk-select {
                         background-color: transparent !important;
-                        padding: 0 !important;
-                        color: $black !important;
+                        padding: 0 10px 0 0 !important;
                         border: 0 !important;
+
+                        .d-icon {
+                            color: $black !important;
+                        }
 
                         &:hover,
                         &:active,
                         &:focus {
-                            color: $dark-red !important;
+
                             border: 0 !important;
+
+                            .d-icon {
+                                color: $dark-red !important;
+                            }
                         }
                     }
                 }
