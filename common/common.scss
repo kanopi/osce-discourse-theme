@@ -43,7 +43,7 @@ h1 {
 .nav-pills {
     a {
         border-radius: 50px;
-        padding: 10px 20px;
+        padding: 10px 20px !important;
 
         &:hover,
         &:active,
@@ -56,16 +56,16 @@ h1 {
 
 button {
     border-radius: 50px;
-    padding: 10px 20px;
-    background-color: $dark-red;
-    color: $white;
-    border: 2px solid $dark-red;
+    padding: 10px 20px !important;
+    background-color: $dark-red !important;
+    color: $white !important;
+    border: 2px solid $dark-red !important;
 
     &:hover,
     &:active,
     &:focus {
-        background-color: $white;
-        color: $dark-red;
+        background-color: $white !important;
+        color: $dark-red !important;
     }
 }
 
