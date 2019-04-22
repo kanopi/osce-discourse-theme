@@ -20,32 +20,30 @@ sans-serif;
 
 // OSCE customization
 
+
+//general
+
 body {
     border-bottom: 60px solid $dark-blue;
     font-family: $font2;
 }
 
-.d-header {
-    background-color: $aqua;
-}
-
-.topic-list {
-    thead {
-        background-color: $yellow;
-
-        tr {
-            border-bottom: 0;
-
-            th {
-                background: transparent;
-            }
-        }
-    }
-}
 
 #main-outlet {
     overflow-x: hidden;
 }
+
+h1 {
+    font-family: $font1;
+    font-weight: 700;
+}
+
+//header
+
+.d-header {
+    background-color: $aqua;
+}
+
 
 .banner {
     background-color: $dark-blue;
@@ -55,6 +53,7 @@ body {
     position: relative;
     font-family: $font1;
     font-weight: 700;
+    font-size: 36px;
 
     &:after {
         position: absolute;
@@ -77,7 +76,24 @@ body {
     }
 }
 
-h1 {
-    font-family: $font1;
-    font-weight: 700;
+
+//table
+
+
+.tbody {
+    border-top: 0;
+}
+
+.topic-list {
+    thead {
+        background-color: $yellow;
+
+        tr {
+            border-bottom: 0;
+
+            th {
+                background: transparent;
+            }
+        }
+    }
 }
