@@ -46,6 +46,7 @@ h1 {
         a {
             border-radius: 50px;
             padding: 10px 20px !important;
+            border: 2px solid $dark-red !important;
 
             &:hover,
             &:active,
@@ -63,11 +64,19 @@ h1 {
         color: $white !important;
         border: 2px solid $dark-red !important;
 
+        svg {
+            color: $white !important;
+        }
+
         &:hover,
         &:active,
         &:focus {
             background-color: $white !important;
             color: $dark-red !important;
+
+            svg {
+                color: $dark-red !important;
+            }
         }
     }
 }
