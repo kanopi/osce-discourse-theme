@@ -49,8 +49,8 @@ h1 {
         &:hover,
         &:active,
         &:focus {
-            background-color: $white;
-            color: $dark-red;
+            background-color: $white !important;
+            color: $dark-red !important;
             border: 2px solid $dark-red !important;
         }
 
