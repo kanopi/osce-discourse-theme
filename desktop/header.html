@@ -1,5 +1,9 @@
 <script type='text/x-handlebars' data-template-name='list/topic-list-item.raw'>
 
+  <div class="banner">
+    HI I'M A BANNER {{short_site_description}}
+  </div>
+
 {{#if bulkSelectEnabled}}
 <td class='star'>
   <input type='checkbox' class='bulk-select'>
@@ -75,20 +79,18 @@
 </script>
 
 <script>
+  (function () {
 
-(function(){
-
-var TopicListItemView = require('discourse/components/topic-list-item').default;
+    var TopicListItemView = require('discourse/components/topic-list-item').default;
 
 
-TopicListItemView.reopen({
-    showCategory: function(){
+    TopicListItemView.reopen({
+      showCategory: function () {
         return !this.get('controller.hideCategory') &&
-                this.get('topic.creator') &&
-                this.get('topic.category.name') !== 'uncategorized';
-    }.property()
-});
-   
-})();
- 
+          this.get('topic.creator') &&
+          this.get('topic.category.name') !== 'uncategorized';
+      }.property()
+    });
+
+  })();
 </script>
