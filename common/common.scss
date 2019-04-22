@@ -1,7 +1,7 @@
 //color vars
 
-$white: #ffffff;
-$black: #000000;
+$white: $secondary;
+$black: $primary;
 $light: #aaaaaa; // light grey
 $shade: #666666; // darker grey
 $yellow: #FFCC33;
@@ -9,7 +9,7 @@ $dark-red: #990000;
 $dark-blue: #0D88AD;
 $green: #02BDAA;
 $teal: #018578;
-$aqua: #CCFFFF;
+$aqua: $header_background;
 
 // font vars
 
@@ -42,9 +42,7 @@ h1 {
 
 //header
 
-.d-header {
-    background-color: $aqua;
-}
+
 
 
 .banner {

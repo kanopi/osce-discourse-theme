@@ -7,8 +7,8 @@
   },
   "color_schemes": {
     "OSCE Color Scheme": {
-      "primary": "990000",
-      "secondary": "990000",
+      "primary": "000000",
+      "secondary": "ffffff",
       "tertiary": "990000",
       "quaternary": "990000",
       "header_background": "990000",
