@@ -11,10 +11,18 @@ $green: #02BDAA;
 $teal: #018578;
 $aqua: #CCFFFF;
 
+// font vars
+
+$font1: 'Josefin Sans',
+sans-serif;
+$font2: 'Montserrat',
+sans-serif;
+
 // OSCE customization
 
 body {
     border-bottom: 60px solid $dark-blue;
+    font-family: $font2;
 }
 
 .d-header {
@@ -45,6 +53,8 @@ body {
     padding: 50px 0;
     text-align: center;
     position: relative;
+    font-family: $font1;
+    font-weight: bold;
 
     &:after {
         position: absolute;
