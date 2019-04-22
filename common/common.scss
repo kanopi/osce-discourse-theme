@@ -4,11 +4,11 @@ $white: $secondary;
 $black: $primary;
 $light: #aaaaaa; // light grey
 $shade: #666666; // darker grey
-$yellow: #FFCC33;
-$dark-red: #990000;
-$dark-blue: #0D88AD;
-$green: #02BDAA;
-$teal: #018578;
+$yellow: $highlight;
+$dark-red: $quaternary;
+$dark-blue: $tertiary;
+$green: $success;
+$teal: $love;
 $aqua: $header_background;
 
 // font vars

@@ -9,14 +9,14 @@
     "OSCE Color Scheme": {
       "primary": "000000",
       "secondary": "ffffff",
-      "tertiary": "990000",
+      "tertiary": "0D88AD",
       "quaternary": "990000",
       "header_background": "CCFFFF",
-      "header_primary": "990000",
-      "highlight": "990000",
+      "header_primary": "000000",
+      "highlight": "FFCC33",
       "danger": "990000",
-      "success": "990000",
-      "love": "990000"
+      "success": "02BDAA",
+      "love": "018578"
     }
   }
 }
