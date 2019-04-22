@@ -164,11 +164,13 @@ button {
                         background-color: transparent !important;
                         padding: 0 !important;
                         color: $black !important;
+                        border: 0 !important;
 
                         &:hover,
                         &:active,
                         &:focus {
                             color: $dark-red !important;
+                            border: 0 !important;
                         }
                     }
                 }
