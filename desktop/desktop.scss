@@ -210,5 +210,13 @@ body {
 .topic-list {
     thead {
         background-color: $yellow;
+
+        tr {
+            border: 0;
+
+            th {
+                background: transparent;
+            }
+        }
     }
 }
