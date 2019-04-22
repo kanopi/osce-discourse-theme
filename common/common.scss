@@ -92,15 +92,16 @@ button {
 
 .d-header {
     a {
-        color: $black !important;
-        border: 2px solid transparent !important;
+        .d-icon {
+            color: $black !important;
+        }
 
         &:hover,
         &:active,
         &:focus {
-            color: $dark-red !important;
-            background-color: $white !important;
-            border: 2px solid $dark-red !important;
+            .d-icon {
+                color: $dark-red !important;
+            }
         }
     }
 }
