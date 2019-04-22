@@ -165,6 +165,7 @@ button {
     background: $white;
     border: 2px solid $black;
     border-top: 0;
+    z-index: 5;
 
     tbody {
         border-top: 0;
@@ -175,6 +176,28 @@ button {
 
         thead {
             background-color: $yellow;
+            position: relative;
+            z-index: 10;
+
+            &:after {
+                position: absolute;
+                content: '';
+                height: 100%;
+                width: 2px;
+                right: 100%;
+                background-color: $yellow;
+                top: 0;
+            }
+
+            &:before {
+                position: absolute;
+                content: '';
+                height: 100%;
+                width: 2px;
+                left: 100%;
+                background-color: $yellow;
+                top: 0;
+            }
 
             tr {
                 border-bottom: 0;
