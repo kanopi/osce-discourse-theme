@@ -1,5 +1,22 @@
 {
-  "name": "Sam's Simple Theme",
+  "name": "OSCE Theme",
   "about_url": "https://meta.discourse.org/t/sams-personal-minimal-topic-list-design/23552",
-  "license_url": "https://github.com/SamSaffron/discourse-simple-theme/blob/master/LICENSE.txt"
+  "license_url": "https://github.com/SamSaffron/discourse-simple-theme/blob/master/LICENSE.txt",
+  "assets": {
+    "wormz": "assets/wormz.png"
+  },
+  "color_schemes": {
+    "My Colour Scheme": {
+      "primary": "990000",
+      "secondary": "990000",
+      "tertiary": "990000",
+      "quaternary": "990000",
+      "header background": "990000",
+      "header primary": "990000",
+      "highlight": "990000",
+      "danger": "990000",
+      "success": "990000",
+      "love": "990000",
+    }
+  }
 }
