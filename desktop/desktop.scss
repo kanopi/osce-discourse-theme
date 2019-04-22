@@ -1,15 +1,11 @@
 //default from Sam's Theme
-.topic-list>tbody>tr:nth-child(odd) {
-    background-color: white;
-}
+.topic-list>tbody>tr:nth-child(odd) {}
 
 
-.topic-list>tbody tr:not(.last-visit):not(.topic-list-item-separator) td {
-    border-bottom: 1px solid #eee;
-}
+.topic-list>tbody tr:not(.last-visit):not(.topic-list-item-separator) td {}
 
 .topic-list a.title:not(.badge-notification) {
-    color: #3b5998;
+
     font-weight: normal;
     font-family: 'Helvetica Neue', Helvetica, Arial, Utkal, sans-serif;
     font-size: 18px;
@@ -34,19 +30,14 @@
 
     td,
     .creator a,
-    .editor a {
-        color: #888;
-    }
+    .editor a {}
 }
 
 .topic-list td {
     padding-bottom: 10px;
 }
 
-.topic-list th {
-    color: black;
-    background-color: #fafafa;
-}
+.topic-list th {}
 
 .topic-list {
     border-top: none;
@@ -75,13 +66,11 @@
         font-size: 17px;
 
         a {
-            color: #888 !important;
+
             font-weight: normal;
         }
 
-        a.heatmap-high {
-            color: #c66 !important;
-        }
+        a.heatmap-high {}
 
         width: 100px;
     }
@@ -91,9 +80,7 @@
 .topic-list th.activity {
     width: 160px;
 
-    .relative-date {
-        color: #666;
-    }
+    .relative-date {}
 }
 
 .topic-list .creator .relative-date {
@@ -106,7 +93,7 @@
 
 .topic-list .badge-wrapper.bar {
     .badge-category {
-        color: #9a9a9a !important;
+
         font-weight: 600;
         font-size: 12px;
         padding: 2px 6px;
@@ -134,25 +121,20 @@
 
 /* topic page */
 #topic-progress {
-    background-color: #f1f1f1;
-    color: #666;
+
     font-weight: normal;
 
-    .bg {
-        background-color: #bee9e9;
-    }
+    .bg {}
 }
 
 nav.post-controls button.has-like {
     color: #08c;
 }
 
-.badge-wrapper.bullet span.badge-category {
-    color: #333 !important;
-}
+.badge-wrapper.bullet span.badge-category {}
 
 .creator .badge-wrapper.bullet span.badge-category {
-    color: #888 !important;
+
     margin-top: -2px;
 }
 
@@ -164,9 +146,7 @@ img.avatar {
     width: 500px;
 }
 
-.topic-list a.title.visited:not(.badge-notification) {
-    color: #6644aa;
-}
+.topic-list a.title.visited:not(.badge-notification) {}
 
 
 .topic-list-item .discourse-tags {
