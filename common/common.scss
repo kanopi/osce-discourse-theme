@@ -64,7 +64,7 @@ h1 {
         color: $white !important;
         border: 2px solid $dark-red !important;
 
-        svg {
+        .d-icon {
             color: $white !important;
         }
 
@@ -74,7 +74,7 @@ h1 {
             background-color: $white !important;
             color: $dark-red !important;
 
-            svg {
+            .d-icon {
                 color: $dark-red !important;
             }
         }
