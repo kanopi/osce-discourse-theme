@@ -52,6 +52,7 @@ h1 {
             background-color: $white !important;
             color: $dark-red !important;
             border: 2px solid $dark-red !important;
+            outline: none;
         }
 
         &.active {
@@ -76,6 +77,7 @@ button {
     &:focus {
         background-color: $white !important;
         color: $dark-red !important;
+        outline: none;
 
         .d-icon {
             color: $dark-red !important;
@@ -157,6 +159,7 @@ button {
                         &:active,
                         &:focus {
                             color: $dark-red;
+                            outline: none;
                         }
                     }
 
