@@ -80,32 +80,46 @@ h1 {
 //table
 
 
-tbody {
-    border-top: 0;
-    border-left: 2px solid $black;
-    border-right: 2px solid $black;
-}
+#list-area {
+    background: $white;
 
-.topic-list {
-    thead {
-        background-color: $yellow;
+    tbody {
+        border-top: 0;
+        border-left: 2px solid $black;
+        border-right: 2px solid $black;
+        margin-bottom: 0;
+    }
 
-        tr {
-            border-bottom: 0;
+    .topic-list {
+        thead {
+            background-color: $yellow;
 
-            th {
-                background: transparent;
+            tr {
+                border-bottom: 0;
+
+                th {
+                    background: transparent;
+                    color: $black;
+
+                    a {
+                        color: $black;
+
+                        &:hover {
+                            color: $dark-red;
+                        }
+                    }
+                }
             }
         }
     }
-}
-
-#list-area {
-    background: $white;
 
     .footer-message {
         padding: 10px;
         border: 2px solid $black;
         border-top: 0;
+    }
+
+    .topic-list-bottom {
+        margin-bottom: 0;
     }
 }
