@@ -1,5 +1,5 @@
 {
-  "name": "OSCE Theme",
+  "name": "Sam's Simple Theme",
   "about_url": "https://meta.discourse.org/t/sams-personal-minimal-topic-list-design/23552",
   "license_url": "https://github.com/SamSaffron/discourse-simple-theme/blob/master/LICENSE.txt",
   "assets": {
@@ -16,7 +16,7 @@
       "highlight": "990000",
       "danger": "990000",
       "success": "990000",
-      "love": "990000",
+      "love": "990000"
     }
   }
 }
