@@ -199,10 +199,16 @@ $aqua: #CCFFFF;
 
 // OSCE customization
 
+body {
+    border-bottom: 60px solid $dark-blue;
+}
+
 .d-header {
-    background-color: $teal;
+    background-color: $aqua;
 }
 
 .topic-list {
-    background-color: $yellow;
+    thead {
+        background-color: $yellow;
+    }
 }
