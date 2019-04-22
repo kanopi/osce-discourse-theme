@@ -37,4 +37,26 @@ body {
 
 .banner {
     background-color: $dark-blue;
+    margin: -30px auto 30px;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+
+    &:after {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        right: 100%;
+        background-color: $dark-blue;
+    }
+
+    &:before {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 100%;
+        left: 100%;
+        background-color: $dark-blue;
+    }
 }
