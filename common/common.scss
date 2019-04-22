@@ -1,0 +1,40 @@
+//color vars
+
+$white: #ffffff;
+$black: #000000;
+$light: #aaaaaa; // light grey
+$shade: #666666; // darker grey
+$yellow: #FFCC33;
+$dark-red: #990000;
+$dark-blue: #0D88AD;
+$green: #02BDAA;
+$teal: #018578;
+$aqua: #CCFFFF;
+
+// OSCE customization
+
+body {
+    border-bottom: 60px solid $dark-blue;
+}
+
+.d-header {
+    background-color: $aqua;
+}
+
+.topic-list {
+    thead {
+        background-color: $yellow;
+
+        tr {
+            border-bottom: 0;
+
+            th {
+                background: transparent;
+            }
+        }
+    }
+}
+
+.banner {
+    background-color: $dark-blue;
+}
