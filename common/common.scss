@@ -102,7 +102,7 @@ h1 {
                     background: transparent;
                     color: $black;
 
-                    a {
+                    &.sortable {
                         color: $black;
 
                         &:hover {
