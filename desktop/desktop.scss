@@ -1,3 +1,4 @@
+//default from Sam's Theme
 .topic-list>tbody>tr:nth-child(odd) {
     background-color: white;
 }
@@ -183,10 +184,25 @@ body {
     }
 }
 
+//color vars
 
+$white: #ffffff;
+$black: #000000;
+$light: #aaaaaa; // light grey
+$shade: #666666; // darker grey
+$yellow: #FFCC33;
+$dark-red: #990000;
+$dark-blue: #0D88AD;
+$green: #02BDAA;
+$teal: #018578;
+$aqua: #CCFFFF;
 
+// OSCE customization
 
-body {
-    background: green;
-    border: 10px solid yellow;
+.d-header {
+    background-color: $teal;
+}
+
+.topic-list {
+    background-color: $yellow;
 }
