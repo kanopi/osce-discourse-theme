@@ -40,48 +40,45 @@ h1 {
     font-weight: 700;
 }
 
-.list-controls {
-
-    .nav-pills {
-        a {
-            border-radius: 50px;
-            padding: 10px 20px !important;
-            border: 2px solid transparent !important;
-
-            &:hover,
-            &:active,
-            &:focus {
-                background-color: $white;
-                color: $dark-red;
-                border: 2px solid $dark-red !important;
-            }
-
-            &.active {
-                border: 2px solid $dark-red !important;
-            }
-        }
-    }
-
-    button {
+.nav-pills {
+    a {
         border-radius: 50px;
         padding: 10px 20px !important;
-        background-color: $dark-red !important;
-        color: $white !important;
-        border: 2px solid $dark-red !important;
-
-        .d-icon {
-            color: $white !important;
-        }
+        border: 2px solid transparent !important;
 
         &:hover,
         &:active,
         &:focus {
-            background-color: $white !important;
-            color: $dark-red !important;
+            background-color: $white;
+            color: $dark-red;
+            border: 2px solid $dark-red !important;
+        }
 
-            .d-icon {
-                color: $dark-red !important;
-            }
+        &.active {
+            border: 2px solid $dark-red !important;
+        }
+    }
+}
+
+button {
+    border-radius: 50px;
+    padding: 10px 20px !important;
+    background-color: $dark-red !important;
+    color: $white !important;
+    border: 2px solid $dark-red !important;
+
+    .d-icon {
+        color: $white !important;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $white !important;
+        color: $dark-red !important;
+
+        .d-icon {
+            color: $dark-red !important;
         }
     }
 }
