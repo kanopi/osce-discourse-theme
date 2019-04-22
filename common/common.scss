@@ -87,10 +87,11 @@ h1 {
         border-top: 0;
         border-left: 2px solid $black;
         border-right: 2px solid $black;
-        margin-bottom: 0;
     }
 
     .topic-list {
+        margin-bottom: 0;
+
         thead {
             background-color: $yellow;
 
@@ -120,6 +121,6 @@ h1 {
     }
 
     .topic-list-bottom {
-        margin-bottom: 0;
+        margin-top: 0;
     }
 }
