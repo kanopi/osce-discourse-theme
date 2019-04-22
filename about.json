@@ -1,12 +1,12 @@
 {
-  "name": "Sam's Simple Theme",
+  "name": "OSCE Theme",
   "about_url": "https://meta.discourse.org/t/sams-personal-minimal-topic-list-design/23552",
   "license_url": "https://github.com/SamSaffron/discourse-simple-theme/blob/master/LICENSE.txt",
   "assets": {
     "wormz": "assets/wormz.png"
   },
   "color_schemes": {
-    "My Colour Scheme": {
+    "OSCE Color Scheme": {
       "primary": "990000",
       "secondary": "990000",
       "tertiary": "990000",
