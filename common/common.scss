@@ -106,114 +106,121 @@ button {
 
             }
         }
+    }
 
-        &.active {
+    a.active {
+        a {
             background-color: $white !important;
 
             .d-icon {
                 color: $dark-red !important;
 
             }
+
+            &:hover,
+            &:active,
+            &:focus {
+                background-color: $white !important;
+            }
         }
     }
-}
 
-.banner {
-    background-color: $dark-blue;
-    margin: -30px auto 30px;
-    padding: 50px 0;
-    text-align: center;
-    position: relative;
-    font-family: $font1;
-    font-weight: 700;
-    font-size: 36px;
-
-    &:after {
-        position: absolute;
-        content: '';
-        height: 100%;
-        width: 100%;
-        right: 100%;
+    .banner {
         background-color: $dark-blue;
-        top: 0;
+        margin: -30px auto 30px;
+        padding: 50px 0;
+        text-align: center;
+        position: relative;
+        font-family: $font1;
+        font-weight: 700;
+        font-size: 36px;
+
+        &:after {
+            position: absolute;
+            content: '';
+            height: 100%;
+            width: 100%;
+            right: 100%;
+            background-color: $dark-blue;
+            top: 0;
+        }
+
+        &:before {
+            position: absolute;
+            content: '';
+            height: 100%;
+            width: 100%;
+            left: 100%;
+            background-color: $dark-blue;
+            top: 0;
+        }
     }
 
-    &:before {
-        position: absolute;
-        content: '';
-        height: 100%;
-        width: 100%;
-        left: 100%;
-        background-color: $dark-blue;
-        top: 0;
-    }
-}
+
+    //table
 
 
-//table
-
-
-#list-area {
-    background: $white;
-    border: 2px solid $black;
-    border-top: 0;
-
-    tbody {
+    #list-area {
+        background: $white;
+        border: 2px solid $black;
         border-top: 0;
-    }
 
-    .topic-list {
-        margin-bottom: 0;
+        tbody {
+            border-top: 0;
+        }
 
-        thead {
-            background-color: $yellow;
+        .topic-list {
+            margin-bottom: 0;
 
-            tr {
-                border-bottom: 0;
-                height: 55px;
+            thead {
+                background-color: $yellow;
 
-                th {
-                    background: transparent;
-                    color: $black;
+                tr {
+                    border-bottom: 0;
+                    height: 55px;
 
-                    &.sortable {
+                    th {
+                        background: transparent;
                         color: $black;
 
-                        &:hover,
-                        &:active,
-                        &:focus {
-                            color: $dark-red;
-                            outline: none;
-                        }
-                    }
+                        &.sortable {
+                            color: $black;
 
-                    .bulk-select {
-                        background-color: transparent !important;
-                        padding: 0 10px 0 0 !important;
-                        border: 0 !important;
-
-                        .d-icon {
-                            color: $black !important;
+                            &:hover,
+                            &:active,
+                            &:focus {
+                                color: $dark-red;
+                                outline: none;
+                            }
                         }
 
-                        &:hover,
-                        &:active,
-                        &:focus {
-
+                        .bulk-select {
+                            background-color: transparent !important;
+                            padding: 0 10px 0 0 !important;
                             border: 0 !important;
 
                             .d-icon {
-                                color: $dark-red !important;
+                                color: $black !important;
+                            }
+
+                            &:hover,
+                            &:active,
+                            &:focus {
+
+                                border: 0 !important;
+
+                                .d-icon {
+                                    color: $dark-red !important;
+                                }
                             }
                         }
                     }
                 }
             }
         }
-    }
 
-    .footer-message {
-        padding-left: 10px;
-    }
+        .footer-message {
+            padding-left: 10px;
+        }
 
-}
+    }
