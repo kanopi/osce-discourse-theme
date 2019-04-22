@@ -40,32 +40,35 @@ h1 {
     font-weight: 700;
 }
 
-.nav-pills {
-    a {
+.list-controls {
+
+    .nav-pills {
+        a {
+            border-radius: 50px;
+            padding: 10px 20px !important;
+
+            &:hover,
+            &:active,
+            &:focus {
+                background-color: $white;
+                color: $dark-red;
+            }
+        }
+    }
+
+    button {
         border-radius: 50px;
         padding: 10px 20px !important;
+        background-color: $dark-red !important;
+        color: $white !important;
+        border: 2px solid $dark-red !important;
 
         &:hover,
         &:active,
         &:focus {
-            background-color: $white;
-            color: $dark-red;
+            background-color: $white !important;
+            color: $dark-red !important;
         }
-    }
-}
-
-button {
-    border-radius: 50px;
-    padding: 10px 20px !important;
-    background-color: $dark-red !important;
-    color: $white !important;
-    border: 2px solid $dark-red !important;
-
-    &:hover,
-    &:active,
-    &:focus {
-        background-color: $white !important;
-        color: $dark-red !important;
     }
 }
 
