@@ -99,8 +99,20 @@ button {
         &:hover,
         &:active,
         &:focus {
+            background-color: transparent !important;
+
             .d-icon {
                 color: $dark-red !important;
+
+            }
+        }
+
+        &.active {
+            background-color: $white !important;
+
+            .d-icon {
+                color: $dark-red !important;
+
             }
         }
     }
