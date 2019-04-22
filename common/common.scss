@@ -90,7 +90,20 @@ button {
 //header
 
 
+.d-header {
+    a {
+        color: $black;
+        border: 2px solid transparent;
 
+        &:hover,
+        &:active,
+        &:focus {
+            color: $dark-red;
+            background-color: $white;
+            border: 2px solid $dark-red;
+        }
+    }
+}
 
 .banner {
     background-color: $dark-blue;
@@ -144,6 +157,7 @@ button {
 
             tr {
                 border-bottom: 0;
+                height: 55px;
 
                 th {
                     background: transparent;
@@ -186,7 +200,7 @@ button {
     }
 
     .footer-message {
-        padding: 10px;
+        padding-left: 10px;
     }
 
 }
