@@ -28,6 +28,7 @@ body {
     font-family: $font2;
     background-image: url($wormz);
     background-repeat: repeat;
+    background-size: auto;
 }
 
 
@@ -89,7 +90,7 @@ button,
 }
 
 .avatar {
-    border-radius: 50px !important;
+    border-radius: 50% !important;
 }
 
 //header
@@ -179,7 +180,7 @@ button,
 }
 
 
-//table
+//tables
 
 
 #list-area {
@@ -268,4 +269,9 @@ button,
         padding-left: 10px;
     }
 
+}
+
+.user-table {
+    background-color: $white;
+    padding: 10px;
 }
