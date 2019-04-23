@@ -113,11 +113,18 @@ button,
         }
 
         &.badge-notification {
+            .d-icon {
+                color: $black !important;
+            }
 
             &:hover,
             &:active,
             &:focus {
                 background-color: $teal !important;
+
+                .d-icon {
+                    color: $white !important;
+                }
             }
         }
     }
