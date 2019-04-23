@@ -229,7 +229,8 @@ button:not(.colorpicker),
 .d-editor-button-bar,
 .topic-map,
 .actions,
-.controls {
+.controls,
+.notifications-button {
     .no-text {
         color: $dark-red !important;
         background-color: transparent !important;
@@ -253,7 +254,7 @@ button:not(.colorpicker),
 }
 
 .more-topics {
-    button {
+    .btn {
         margin: 10px;
     }
 }
