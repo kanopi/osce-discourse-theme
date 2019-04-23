@@ -263,6 +263,12 @@ button,
 
 //header
 
+.menu-panel {
+    .badge {
+        background-color: $yellow !important;
+    }
+}
+
 .badge-notification {
     color: $black !important;
 
@@ -276,12 +282,8 @@ button,
         background-color: $teal !important;
         color: $white !important;
     }
-
-    &.new {
-        background-color: $yellow !important;
-        color: $black !important;
-    }
 }
+
 
 .d-header {
     a {
