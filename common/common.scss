@@ -161,9 +161,14 @@ nav {
     color: $black !important;
 }
 
+.admin-content {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
 //buttons
 
-button,
+button:not(.select-kit-header),
 .btn,
 .btn-default {
     border-radius: 50px;
