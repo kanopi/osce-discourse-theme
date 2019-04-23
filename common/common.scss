@@ -276,9 +276,11 @@ button:not(.colorpicker),
     }
 }
 
-.select-kit-header {
-    border-radius: 50px;
-    background-color: transparent !important;
+.select-kit {
+    button {
+        border-radius: 50px;
+        background-color: transparent !important;
+    }
 }
 
 
