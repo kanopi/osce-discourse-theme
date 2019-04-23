@@ -252,6 +252,11 @@ button:not(.colorpicker),
     }
 }
 
+.more-topics {
+    button {
+        margin: 10px;
+    }
+}
 
 .like-button {
 
@@ -436,10 +441,10 @@ button:not(.colorpicker),
                     position: absolute;
                     content: '';
                     height: 2px;
-                    width: 100%;
-                    left: 0;
+                    width: calc(100% + 4px);
+                    left: -2px;
                     background-color: $yellow;
-                    top: 0;
+                    top: -2px;
                 }
 
                 th {
