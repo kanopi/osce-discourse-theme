@@ -41,6 +41,22 @@ h1 {
     font-weight: 700;
 }
 
+.search-advanced-title {
+    font-family: $font1;
+    font-weight: 700;
+    background-color: $yellow;
+}
+
+.search-advanced {
+    background-color: $white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.search-advanced-filters {
+    background-color: $yellow;
+}
+
 .nav-pills {
     a {
         border-radius: 50px;
@@ -73,11 +89,6 @@ nav {
     }
 }
 
-.search-advanced {
-    background-color: $white;
-    padding: 10px;
-    box-sizing: border-box;
-}
 
 .select-kit-header {
     border-radius: 50px;
@@ -99,7 +110,7 @@ nav {
 }
 
 #topic-footer-buttons {
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 
 .alert {
