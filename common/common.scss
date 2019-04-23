@@ -47,7 +47,6 @@ a {
     &:active,
     &:focus {
         color: $dark-red;
-
     }
 }
 
@@ -67,7 +66,7 @@ a {
 
 .search-advanced-filters {
     background-color: $yellow !important;
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 .search-advanced-options {
@@ -224,6 +223,7 @@ button,
         &:active,
         &:focus {
             border: 0 !important;
+            outline: none;
 
             .d-icon {
                 color: $dark-blue !important;
