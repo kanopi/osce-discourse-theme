@@ -407,6 +407,11 @@ input {
     padding: 10px;
 }
 
+.me {
+    background-color: $yellow !important;
+    color: $black !important;
+}
+
 #list-area {
     background: $white;
     border: 2px solid $black;
