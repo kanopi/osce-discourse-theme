@@ -263,6 +263,20 @@ button,
 
 //header
 
+.badge-notification {
+    color: $black !important;
+
+    &.unread-notifications {
+        background-color: $yellow !important;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: $teal !important;
+        color: $white !important;
+    }
+}
 
 .d-header {
     a {
@@ -278,21 +292,6 @@ button,
             .d-icon {
                 color: $dark-red !important;
 
-            }
-        }
-
-        &.badge-notification {
-            color: $black !important;
-
-            &.unread-notifications {
-                background-color: $yellow !important;
-            }
-
-            &:hover,
-            &:active,
-            &:focus {
-                background-color: $teal !important;
-                color: $white !important;
             }
         }
     }
