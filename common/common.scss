@@ -133,7 +133,10 @@ nav {
 .alert {
     &.alert-info {
         background-color: $aqua !important;
-        color: $black !important;
+
+        a {
+            color: unset;
+        }
 
         .d-icon {
             color: $black !important;
