@@ -310,3 +310,16 @@ button,
     padding: 10px;
     box-sizing: border-box;
 }
+
+// lists
+
+
+.action-list {
+    a {
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $dark-red !important;
+        }
+    }
