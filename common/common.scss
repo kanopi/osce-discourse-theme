@@ -41,6 +41,16 @@ h1 {
     font-weight: 700;
 }
 
+a {
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: $dark-red;
+
+    }
+}
+
 .search-advanced-title {
     font-family: $font1;
     font-weight: 700 !important;
