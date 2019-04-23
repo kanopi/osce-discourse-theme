@@ -177,7 +177,6 @@ nav {
 
 //buttons
 
-button:not(.colorpicker),
 .btn:not(.colorpicker),
 .btn-default:not(.colorpicker) {
     border-radius: 50px;
@@ -505,7 +504,7 @@ button:not(.colorpicker),
         }
 
         &.is-selected {
-            background-color: $yellow !important;
+            background-color: $green !important;
             color: $black !important;
         }
     }
