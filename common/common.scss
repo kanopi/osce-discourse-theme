@@ -26,13 +26,13 @@ sans-serif;
 body {
     border-bottom: 60px solid $dark-blue;
     font-family: $font2;
+    background-image: url($wormz);
+    background-repeat: repeat;
 }
 
 
 #main {
     overflow-x: hidden;
-    background-image: url($wormz);
-    background-repeat: repeat;
 }
 
 h1 {
@@ -85,6 +85,10 @@ button,
 }
 
 .select-kit-header {
+    border-radius: 50px;
+}
+
+.avatar {
     border-radius: 50px;
 }
 
