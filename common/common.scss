@@ -185,7 +185,20 @@ button,
 .title-wrapper {
     .d-icon {
         color: $dark-red !important;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $dark-blue !important;
+
+        }
     }
+}
+
+.like-count {
+    background-color: transparent !important;
+    color: $dark-red !important;
+    border: 0 !important;
 }
 
 //header
