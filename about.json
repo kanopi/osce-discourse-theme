@@ -5,9 +5,6 @@
   "assets": {
     "wormz": "assets/wormz.png"
   },
-  "metadata": {
-    "description": "Your page description goes here"
-  },
   "color_schemes": {
     "OSCE Color Scheme": {
       "primary": "000000",
