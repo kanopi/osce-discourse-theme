@@ -73,6 +73,56 @@ nav {
     }
 }
 
+.search-advanced {
+    background-color: $white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.select-kit-header {
+    border-radius: 50px;
+}
+
+.avatar {
+    border-radius: 50% !important;
+}
+
+.primary {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.topic-area {
+    background-color: $white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#topic-footer-buttons {
+    margin: 20px 0px;
+}
+
+.alert {
+    &.alert-info {
+        background-color: $aqua !important;
+    }
+}
+
+.title-wrapper {
+    .d-icon {
+        color: $dark-red !important;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $dark-blue !important;
+
+        }
+    }
+}
+
+//buttons
+
 button,
 .btn,
 .btn-default {
@@ -118,14 +168,6 @@ button,
     }
 }
 
-.like-button {
-
-    &:hover,
-    &:active,
-    &:focus {
-        background-color: transparent !important;
-    }
-}
 
 .pref-avatar,
 .removable-list,
@@ -153,45 +195,14 @@ button,
     }
 }
 
-.select-kit-header {
-    border-radius: 50px;
-}
 
-.avatar {
-    border-radius: 50% !important;
-}
+.like-button {
 
-.primary {
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.topic-area {
-    background-color: $white;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-#topic-footer-buttons {
-    margin: 20px 0px;
-}
-
-.alert {
-    &.alert-info {
-        background-color: $aqua !important;
-    }
-}
-
-.title-wrapper {
-    .d-icon {
-        color: $dark-red !important;
-
-        &:hover,
-        &:active,
-        &:focus {
-            color: $dark-blue !important;
-
-        }
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: transparent !important;
+        box-shadow: none !important;
     }
 }
 
@@ -199,6 +210,13 @@ button,
     background-color: transparent !important;
     color: $dark-red !important;
     border: 0 !important;
+
+    &:hover,
+    &:active,
+    &:focus {
+        border: 0 !important;
+        box-shadow: none !important;
+    }
 }
 
 //header
