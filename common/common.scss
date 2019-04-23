@@ -106,6 +106,15 @@ button {
 
             }
         }
+
+        &.badge-notification {
+
+            &:hover,
+            &:active,
+            &:focus {
+                background-color: love !important;
+            }
+        }
     }
 
     .active {
