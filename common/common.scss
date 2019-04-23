@@ -97,7 +97,8 @@ button,
         }
     }
 
-    &.btn-small {
+    &.btn-small,
+    &.btn-icon {
         color: $dark-red !important;
         background-color: transparent !important;
         border: 0 !important;
@@ -112,7 +113,7 @@ button,
             border: 0 !important;
 
             .d-icon {
-                color: $black !important;
+                color: $dark-blue !important;
             }
         }
     }
@@ -124,6 +125,11 @@ button,
 
 .avatar {
     border-radius: 50% !important;
+}
+
+.primary {
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 //header
