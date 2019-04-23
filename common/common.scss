@@ -274,6 +274,13 @@ button,
 
     &.unread-notifications {
         background-color: $yellow !important;
+
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: $teal !important;
+            color: $white !important;
+        }
     }
 
     &:hover,
