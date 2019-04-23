@@ -380,7 +380,6 @@ button:not(.select-kit-header),
 #list-area {
     background: $white;
     border: 2px solid $black;
-    border-top: 0;
     z-index: 5;
 
     tbody {
@@ -394,6 +393,7 @@ button:not(.select-kit-header),
             background-color: $yellow;
             position: relative;
             z-index: 10;
+            top: -2px;
 
             &:after {
                 position: absolute;
@@ -418,6 +418,16 @@ button:not(.select-kit-header),
             tr {
                 border-bottom: 0;
                 height: 55px;
+
+                &:before {
+                    position: absolute;
+                    content: '';
+                    height: 2px;
+                    width: 100%;
+                    left: 0;
+                    background-color: $yellow;
+                    top: 0;
+                }
 
                 th {
                     background: transparent;
