@@ -1,9 +1,9 @@
 <script type='text/x-handlebars' data-template-name='list/topic-list-item.raw'>
 
 
-  One: {{siteSettings.title}}
-
-
+  One: {{siteSettings.site_description}}
+  Two: {{siteSettings.site-description}}
+  Three: {{siteSettings.site.description}}
 
   {{#if bulkSelectEnabled}}
 <td class='star'>
