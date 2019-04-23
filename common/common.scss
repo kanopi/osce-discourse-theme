@@ -276,6 +276,11 @@ button,
         background-color: $teal !important;
         color: $white !important;
     }
+
+    &.new {
+        background-color: $yellow !important;
+        color: $black !important;
+    }
 }
 
 .d-header {
