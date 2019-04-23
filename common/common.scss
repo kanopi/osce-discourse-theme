@@ -409,7 +409,10 @@ input {
 
 .me {
     background-color: $yellow !important;
-    color: $black !important;
+
+    span {
+        color: $black !important;
+    }
 }
 
 #list-area {
