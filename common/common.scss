@@ -57,7 +57,19 @@ h1 {
 
         &.active {
             border: 2px solid $dark-red !important;
+            color: $dark-red !important;
+            background-color: $white !important;
         }
+    }
+}
+
+.admin-controls,
+nav {
+    background-color: transparent !important;
+
+    &:before,
+    &:after {
+        background: transparent !important;
     }
 }
 
