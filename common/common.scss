@@ -278,10 +278,13 @@ button:not(.colorpicker),
 
 .period-chooser {
     .period-chooser-header {
-        border-radius: 50px;
         background-color: transparent !important;
         border: 0 !important;
     }
+}
+
+.select-kit-header {
+    border-radius: 50%;
 }
 
 //header
