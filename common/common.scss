@@ -289,10 +289,14 @@ nav {
 }
 
 .select-kit-header {
-    border-radius: 50px;
+    border-radius: 50px !important;
 }
 
 input {
+    border-radius: 50px !important;
+}
+
+.ac-wrap {
     border-radius: 50px !important;
 }
 
