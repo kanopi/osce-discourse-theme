@@ -409,43 +409,10 @@ button:not(.colorpicker),
 
         thead {
             background-color: $yellow;
-            position: relative;
-            z-index: 10;
-            top: -2px;
-
-            &:after {
-                position: absolute;
-                content: '';
-                height: 55px;
-                width: 2px;
-                right: 100%;
-                background-color: $yellow;
-                top: 0;
-            }
-
-            &:before {
-                position: absolute;
-                content: '';
-                height: 55px;
-                width: 2px;
-                left: 100%;
-                background-color: $yellow;
-                top: 0;
-            }
 
             tr {
                 border-bottom: 0;
                 height: 55px;
-
-                &:before {
-                    position: absolute;
-                    content: '';
-                    height: 2px;
-                    width: calc(100% + 4px);
-                    left: -2px;
-                    background-color: $yellow;
-                    top: -2px;
-                }
 
                 th {
                     background: transparent;
