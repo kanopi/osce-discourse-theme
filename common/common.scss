@@ -134,6 +134,12 @@ nav {
     &.alert-info {
         background-color: $aqua !important;
     }
+
+    color: $black;
+
+    .d-icon {
+        color: $black;
+    }
 }
 
 .title-wrapper {
