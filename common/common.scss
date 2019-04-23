@@ -450,13 +450,14 @@ button,
     }
 }
 
-.select-kit-body {
-    box-shadow: none;
-    border: 1px solid $black;
+.is-focused {
+    outline: none !important;
+}
 
-    .is-focused {
-        outline: none !important;
-    }
+.select-kit-body {
+    box-shadow: none !important;
+    border: 1px solid $black !important;
+    margin-bottom: 40px;
 
     .select-kit-row {
         .desc {
