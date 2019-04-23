@@ -280,6 +280,7 @@ button:not(.colorpicker),
     .period-chooser-header {
         border-radius: 50px;
         background-color: transparent !important;
+        border: 0 !important;
     }
 }
 
@@ -292,6 +293,7 @@ button:not(.colorpicker),
 }
 
 .badge-notification {
+    background-color: $green !important;
     color: $black !important;
 
     &.unread-notifications {
@@ -300,16 +302,16 @@ button:not(.colorpicker),
         &:hover,
         &:active,
         &:focus {
-            background-color: $teal !important;
-            color: $white !important;
+            background-color: $yellow !important;
+            color: $black !important;
         }
     }
 
     &:hover,
     &:active,
     &:focus {
-        background-color: $teal !important;
-        color: $white !important;
+        background-color: $green !important;
+        color: $black !important;
     }
 }
 
