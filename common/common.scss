@@ -139,7 +139,7 @@ nav {
         }
 
         &.no-data {
-            background-color: #DDD !important;
+            background-color: #eee !important;
         }
     }
 }
@@ -227,7 +227,8 @@ button:not(.select-kit-header),
 .removable-list,
 .d-editor-button-bar,
 .topic-map,
-.actions {
+.actions,
+.controls {
     .no-text {
         color: $dark-red !important;
         background-color: transparent !important;
