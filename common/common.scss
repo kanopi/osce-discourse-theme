@@ -41,6 +41,12 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    &.selected-name {
+        padding-left: 10px !important
+    }
+}
+
 a {
 
     &:hover,
@@ -176,9 +182,9 @@ nav {
 
 //buttons
 
-button:not(.select-kit-header),
-.btn:not(.select-kit-header),
-.btn-default:not(.select-kit-header) {
+button:not(.colorpicker),
+.btn:not(.colorpicker),
+.btn-default:not(.colorpicker) {
     border-radius: 50px;
     background-color: $dark-red !important;
     color: $white !important;
