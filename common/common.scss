@@ -450,12 +450,22 @@ button,
     }
 }
 
+.is-focused {
+    outline: none !important;
+}
+
 .select-kit-row {
     &.is-highlighted {
         background-color: $aqua !important;
+        color: $black !important;
+    }
+
+    .d-icon {
+        color: $black !important;
     }
 
     &.is-selected {
         background-color: $yellow !important;
+        color: $black !important;
     }
 }
