@@ -177,8 +177,14 @@ button,
 }
 
 .alert {
-    .alert-info {
+    &.alert-info {
         background-color: $aqua !important;
+    }
+}
+
+.title-wrapper {
+    .d-icon {
+        color: $dark-red !important;
     }
 }
 
