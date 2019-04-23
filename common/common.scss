@@ -177,6 +177,7 @@ button,
         background-color: $white !important;
         color: $dark-red !important;
         outline: none;
+        box-shadow: none !important;
 
         .d-icon {
             color: $dark-red !important;
@@ -446,5 +447,15 @@ button,
         &:focus {
             color: $dark-red !important;
         }
+    }
+}
+
+.select-kit-row {
+    &.is-highlighted {
+        background-color: $aqua !important;
+    }
+
+    &.is-selected {
+        background-color: $yellow !important;
     }
 }
