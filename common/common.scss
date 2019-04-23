@@ -157,6 +157,10 @@ nav {
     }
 }
 
+.reason {
+    color: $black !important;
+}
+
 //buttons
 
 button,
@@ -279,6 +283,10 @@ button,
 
         &.badge-notification {
             color: $black !important;
+
+            &.unread-notifications {
+                background-color: $yellow !important;
+            }
 
             &:hover,
             &:active,
