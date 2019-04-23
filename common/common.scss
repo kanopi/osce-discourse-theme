@@ -89,7 +89,7 @@ button,
 }
 
 .avatar {
-    border-radius: 50px;
+    border-radius: 50px !important;
 }
 
 //header
@@ -117,7 +117,7 @@ button,
             &:hover,
             &:active,
             &:focus {
-                background-color: love !important;
+                background-color: $teal !important;
             }
         }
     }
