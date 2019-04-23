@@ -450,22 +450,31 @@ button,
     }
 }
 
-.is-focused {
-    outline: none !important;
-}
+.select-kit-body {
+    box-shadow: none;
+    border: 1px solid $black;
 
-.select-kit-row {
-    &.is-highlighted {
-        background-color: $aqua !important;
-        color: $black !important;
+    .is-focused {
+        outline: none !important;
     }
 
-    .d-icon {
-        color: $black !important;
-    }
+    .select-kit-row {
+        .desc {
+            color: $black !important;
+        }
 
-    &.is-selected {
-        background-color: $yellow !important;
-        color: $black !important;
+        &.is-highlighted {
+            background-color: $aqua !important;
+            color: $black !important;
+        }
+
+        .d-icon {
+            color: $black !important;
+        }
+
+        &.is-selected {
+            background-color: $yellow !important;
+            color: $black !important;
+        }
     }
 }
