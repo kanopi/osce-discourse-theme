@@ -169,8 +169,8 @@ nav {
 //buttons
 
 button:not(.select-kit-header),
-.btn,
-.btn-default {
+.btn:not(.select-kit-header),
+.btn-default:not(.select-kit-header) {
     border-radius: 50px;
     background-color: $dark-red !important;
     color: $white !important;
