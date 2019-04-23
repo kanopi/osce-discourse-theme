@@ -96,6 +96,26 @@ button,
             color: $dark-red !important;
         }
     }
+
+    &.btn-small {
+        color: $dark-red !important;
+        background-color: transparent !important;
+        border: 0 !important;
+
+        .d-icon {
+            color: $dark-red !important;
+        }
+
+        &:hover,
+        &:active,
+        &:focus {
+            border: 0 !important;
+
+            .d-icon {
+                color: $black !important;
+            }
+        }
+    }
 }
 
 .select-kit-header {
