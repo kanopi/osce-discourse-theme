@@ -133,12 +133,11 @@ nav {
 .alert {
     &.alert-info {
         background-color: $aqua !important;
-    }
+        color: $black !important;
 
-    color: $black;
-
-    .d-icon {
-        color: $black;
+        .d-icon {
+            color: $black !important;
+        }
     }
 }
 
