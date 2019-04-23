@@ -57,10 +57,12 @@ h1 {
 
 .search-advanced-filters {
     background-color: $yellow !important;
+    padding-top: 0px;
 }
 
 .search-advanced-options {
     border-top: 3px solid $white;
+    padding-top: 10px;
 }
 
 .nav-pills {
@@ -135,6 +137,14 @@ nav {
             color: $dark-blue !important;
 
         }
+    }
+}
+
+.timeline-scrollarea {
+    border-color: $green !important;
+
+    .timeline-handle {
+        background-color: $green !important;
     }
 }
 
