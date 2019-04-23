@@ -43,8 +43,11 @@ h1 {
 
 .search-advanced-title {
     font-family: $font1;
-    font-weight: 700;
-    background-color: $yellow;
+    font-weight: 700 !important;
+    background-color: $yellow !important;
+    font-size: 18px;
+    padding-top: 10px !important;
+    border-bottom: 3px solid $white;
 }
 
 .search-advanced {
@@ -54,7 +57,11 @@ h1 {
 }
 
 .search-advanced-filters {
-    background-color: $yellow;
+    background-color: $yellow !important;
+}
+
+.search-advanced-option {
+    border-top: 3px solid $white;
 }
 
 .nav-pills {
