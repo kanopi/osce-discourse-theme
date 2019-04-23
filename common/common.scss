@@ -62,6 +62,7 @@ h1 {
 }
 
 button,
+.btn,
 .btn-default {
     border-radius: 50px;
     background-color: $dark-red !important;
@@ -114,18 +115,13 @@ button,
         }
 
         &.badge-notification {
-            .d-icon {
-                color: $black !important;
-            }
+            color: $black !important;
 
             &:hover,
             &:active,
             &:focus {
                 background-color: $teal !important;
-
-                .d-icon {
-                    color: $white !important;
-                }
+                color: $white !important;
             }
         }
     }
@@ -274,4 +270,5 @@ button,
 .user-table {
     background-color: $white;
     padding: 10px;
+    box-sizing: border-box;
 }
