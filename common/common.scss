@@ -116,8 +116,13 @@ button,
             }
         }
     }
+}
 
-    &.d-hover {
+.like-button {
+
+    &:hover,
+    &:active,
+    &:focus {
         background-color: transparent !important;
     }
 }
@@ -167,6 +172,15 @@ button,
     box-sizing: border-box;
 }
 
+#topic-footer-buttons {
+    margin: 20px 0px;
+}
+
+.alert {
+    .alert-info {
+        background-color: $aqua !important;
+    }
+}
 
 //header
 
