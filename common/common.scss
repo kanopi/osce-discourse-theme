@@ -32,6 +32,10 @@ body {
 	overflow-x: hidden;
 }
 
+#main-outlet {
+	padding-top: 0;
+}
+
 h1 {
 	font-family: $font1;
 	font-weight: 700;
@@ -362,7 +366,7 @@ input {
 
 .banner {
 	background-color: $dark-blue;
-	margin: -30px auto 30px;
+	margin: 60px auto 30px;
 	padding: 50px 0;
 	text-align: center;
 	position: relative;
