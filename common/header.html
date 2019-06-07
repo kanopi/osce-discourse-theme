@@ -1,6 +1,6 @@
 <script type="text/discourse-plugin" version="0.8">
   const ajax = require('discourse/lib/ajax').ajax;
-    api.registerConnectorClass('top-notices', 'custom-content', {
+    api.registerConnectorClass('below-site-header', 'custom-content', {
         setupComponent(args, component) {
             $(function() {
               ajax("about.json").then (function(result){ // get about.json
@@ -11,6 +11,6 @@
     });
 </script>
 
-<script type="text/x-handlebars"   data-template-name="/connectors/top-notices/custom-content" >
+<script type="text/x-handlebars"   data-template-name="/connectors/below-site-header/custom-content" >
 	<div class="banner"> {{about-site.description}} <!-- Access description from about.json --> </div>
 </script>
