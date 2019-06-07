@@ -1,0 +1,31 @@
+<script type="text/discourse-plugin" version="0.8">
+
+  const ajax = require('discourse/lib/ajax').ajax;
+
+    api.registerConnectorClass('top-notices', 'custom-content', {
+
+        setupComponent(args, component) {
+
+            $(function() {
+
+              ajax("about.json").then (function(result){ // get about.json
+
+                component.set('about-site', result.about); // set component with results of about.json
+
+              });
+
+          });
+
+        }
+
+    });
+
+</script>
+
+
+
+<script type="text/x-handlebars"   data-template-name="/connectors/top-notices/custom-content" >
+
+  <div class="banner"> {{about-site.description}} </p> <!-- Access description from about.json --></div>
+
+</script>
