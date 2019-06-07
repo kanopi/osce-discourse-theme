@@ -13,519 +13,513 @@ $aqua: $header_background;
 
 // font vars
 
-$font1: 'Josefin Sans',
-sans-serif;
-$font2: 'Montserrat',
-sans-serif;
+$font1: 'Josefin Sans', sans-serif;
+$font2: 'Montserrat', sans-serif;
 
 // OSCE customization
-
 
 //general
 
 body {
-    border-bottom: 60px solid $dark-blue;
-    font-family: $font2;
-    background-image: url($wormz);
-    background-repeat: repeat;
-    background-size: auto;
+	border-bottom: 60px solid $dark-blue;
+	font-family: $font2;
+	background-image: url($wormz);
+	background-repeat: repeat;
+	background-size: auto;
 }
 
-
 #main {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 h1 {
-    font-family: $font1;
-    font-weight: 700;
+	font-family: $font1;
+	font-weight: 700;
 }
 
 h2 {
-    &.selected-name {
-        padding-left: 10px !important
-    }
+	&.selected-name {
+		padding-left: 10px !important;
+	}
 }
 
 a {
-
-    &:hover,
-    &:active,
-    &:focus {
-        color: $quaternary;
-    }
+	&:active,
+	&:focus,
+	&:hover {
+		color: $quaternary;
+	}
 }
 
 .search-advanced-title {
-    font-family: $font1;
-    font-weight: 700 !important;
-    background-color: $yellow !important;
-    font-size: 18px;
-    padding-top: 10px !important;
+	font-family: $font1;
+	font-weight: 700 !important;
+	background-color: $yellow !important;
+	font-size: 18px;
+	padding-top: 10px !important;
 }
 
 .search-advanced {
-    background-color: $white;
-    padding: 10px;
-    box-sizing: border-box;
+	background-color: $white;
+	padding: 10px;
+	box-sizing: border-box;
 }
 
 .search-advanced-filters {
-    background-color: $yellow !important;
-    padding-top: 0 !important;
+	background-color: $yellow !important;
+	padding-top: 0 !important;
 }
 
 .search-advanced-options {
-    border-top: 3px solid $white;
-    padding-top: 10px;
+	border-top: 3px solid $white;
+	padding-top: 10px;
 }
 
 .nav-pills {
-    a {
-        border-radius: 50px;
-        border: 2px solid transparent !important;
+	a {
+		border-radius: 50px;
+		border: 2px solid transparent !important;
 
-        &:hover,
-        &:active,
-        &:focus {
-            background-color: $white !important;
-            color: $dark-red !important;
-            border: 2px solid $dark-red !important;
-            outline: none;
-        }
+		&:active,
+		&:focus,
+		&:hover {
+			background-color: $white !important;
+			color: $dark-red !important;
+			border: 2px solid $dark-red !important;
+			outline: none;
+		}
 
-        &.active {
-            border: 2px solid $dark-red !important;
-            color: $dark-red !important;
-            background-color: $white !important;
-        }
-    }
+		&.active {
+			border: 2px solid $dark-red !important;
+			color: $dark-red !important;
+			background-color: $white !important;
+		}
+	}
 }
 
 .admin-controls,
 nav {
-    background-color: transparent !important;
+	background-color: transparent !important;
 
-    &:before,
-    &:after {
-        background: transparent !important;
-    }
+	&:after,
+	&:before {
+		background: transparent !important;
+	}
 }
 
 .avatar {
-    border-radius: 50% !important;
+	border-radius: 50% !important;
 }
 
 .primary {
-    padding: 10px;
-    box-sizing: border-box;
+	padding: 10px;
+	box-sizing: border-box;
 }
 
 .topic-area {
-    background-color: $white;
-    padding: 10px;
-    box-sizing: border-box;
+	background-color: $white;
+	padding: 10px;
+	box-sizing: border-box;
 }
 
 #topic-footer-buttons {
-    margin: 20px 0;
+	margin: 20px 0;
 }
 
 .alert {
-    &.alert-info {
-        background-color: $aqua !important;
+	&.alert-info {
+		background-color: $aqua !important;
 
-        .d-icon {
-            color: $black;
-        }
+		.d-icon {
+			color: $black;
+		}
 
-        &.no-data {
-            background-color: #eee !important;
-        }
-    }
+		&.no-data {
+			background-color: #eee !important;
+		}
+	}
 }
 
 .title-wrapper {
-    .d-icon {
-        color: $dark-red !important;
+	.d-icon {
+		color: $dark-red !important;
 
-        &:hover,
-        &:active,
-        &:focus {
-            color: $dark-blue !important;
+		&:active,
+		&:focus,
+		&:hover {
+			color: $dark-blue !important;
 
-        }
-    }
+		}
+	}
 }
 
 .timeline-scrollarea {
-    border-color: $green !important;
+	border-color: $green !important;
 
-    .timeline-handle {
-        background-color: $green !important;
-    }
+	.timeline-handle {
+		background-color: $green !important;
+	}
 }
 
 .reason {
-    color: $black !important;
+	color: $black !important;
 }
 
 .admin-content {
-    padding: 10px;
-    box-sizing: border-box;
+	padding: 10px;
+	box-sizing: border-box;
 }
 
 //buttons
+.btn-default:not(.colorpicker),
 .btn-primary:not(.colorpicker),
-.btn:not(.colorpicker),
-.btn-default:not(.colorpicker) {
-    border-radius: 50px;
-    background-color: $dark-red !important;
-    color: $white !important;
-    border: 2px solid $dark-red !important;
+.btn:not(.colorpicker) {
+	border-radius: 50px;
+	background-color: $dark-red !important;
+	color: $white !important;
+	border: 2px solid $dark-red !important;
 
-    .d-icon {
-        color: $white !important;
-    }
+	.d-icon {
+		color: $white !important;
+	}
 
-    &:hover,
-    &:active,
-    &:focus {
-        background-color: $white !important;
-        color: $dark-red !important;
-        outline: none;
-        box-shadow: none !important;
+	&:active,
+	&:focus,
+	&:hover {
+		background-color: $white !important;
+		color: $dark-red !important;
+		outline: none;
+		box-shadow: none !important;
 
-        .d-icon {
-            color: $dark-red !important;
-        }
-    }
+		.d-icon {
+			color: $dark-red !important;
+		}
+	}
 
-    &.btn-small {
-        color: $dark-red !important;
-        background-color: transparent !important;
-        border: 0 !important;
+	&.btn-small {
+		color: $dark-red !important;
+		background-color: transparent !important;
+		border: 0 !important;
 
-        .d-icon {
-            color: $dark-red !important;
-        }
+		.d-icon {
+			color: $dark-red !important;
+		}
 
-        &:hover,
-        &:active,
-        &:focus {
-            border: 0 !important;
+		&:active,
+		&:focus,
+		&:hover {
+			border: 0 !important;
 
-            .d-icon {
-                color: $dark-blue !important;
-            }
-        }
-    }
+			.d-icon {
+				color: $dark-blue !important;
+			}
+		}
+	}
 }
 
-
+.actions,
+.d-editor-button-bar,
+.notifications-button,
 .pref-avatar,
 .removable-list,
-.d-editor-button-bar,
-.topic-map,
-.actions,
-.notifications-button {
-    .no-text {
-        color: $dark-red !important;
-        background-color: transparent !important;
-        border: 0 !important;
+.topic-map {
+	.no-text {
+		color: $dark-red !important;
+		background-color: transparent !important;
+		border: 0 !important;
 
-        .d-icon {
-            color: $dark-red !important;
-        }
+		.d-icon {
+			color: $dark-red !important;
+		}
 
-        &:hover,
-        &:active,
-        &:focus {
-            border: 0 !important;
-            outline: none;
+		&:active,
+		&:focus,
+		&:hover {
+			border: 0 !important;
+			outline: none;
 
-            .d-icon {
-                color: $dark-blue !important;
-            }
-        }
-    }
+			.d-icon {
+				color: $dark-blue !important;
+			}
+		}
+	}
 }
 
 .more-topics {
-    .btn {
-        margin: 10px;
-    }
+	.btn {
+		margin: 10px;
+	}
 }
 
 .like-button {
-
-    &:hover,
-    &:active,
-    &:focus {
-        background-color: transparent !important;
-        box-shadow: none !important;
-    }
+	&:active,
+	&:focus,
+	&:hover {
+		background-color: transparent !important;
+		box-shadow: none !important;
+	}
 }
 
 .like-count {
-    background-color: transparent !important;
-    color: $dark-red !important;
-    border: 0 !important;
+	background-color: transparent !important;
+	color: $dark-red !important;
+	border: 0 !important;
 
-    &:hover,
-    &:active,
-    &:focus {
-        border: 0 !important;
-        box-shadow: none !important;
-    }
+	&:active,
+	&:focus,
+	&:hover {
+		border: 0 !important;
+		box-shadow: none !important;
+	}
 }
 
 .period-chooser {
-    .period-chooser-header {
-        background-color: transparent !important;
-        border: 0 !important;
-    }
+	.period-chooser-header {
+		background-color: transparent !important;
+		border: 0 !important;
+	}
 }
 
 .select-kit-header {
-    border-radius: 50px !important;
+	border-radius: 50px !important;
 }
 
 input {
-    border-radius: 50px !important;
-    padding: 4px 10px !important;
+	border-radius: 50px !important;
+	padding: 4px 10px !important;
 }
 
 .ac-wrap {
-    border-radius: 50px !important;
+	border-radius: 50px !important;
 }
 
 //header
 
 .menu-panel {
-    .badge {
-        background-color: $yellow !important;
-    }
+	.badge {
+		background-color: $yellow !important;
+	}
 }
 
 .badge-notification {
-    background-color: $green !important;
-    color: $black !important;
+	background-color: $green !important;
+	color: $black !important;
 
-    &.unread-notifications {
-        background-color: $yellow !important;
+	&.unread-notifications {
+		background-color: $yellow !important;
 
-        &:hover,
-        &:active,
-        &:focus {
-            background-color: $yellow !important;
-            color: $black !important;
-        }
-    }
+		&:active,
+		&:focus,
+		&:hover {
+			background-color: $yellow !important;
+			color: $black !important;
+		}
+	}
 
-    &:hover,
-    &:active,
-    &:focus {
-        background-color: $green !important;
-        color: $black !important;
-    }
+	&:active,
+	&:focus,
+	&:hover {
+		background-color: $green !important;
+		color: $black !important;
+	}
 }
 
-
 .d-header {
-    a {
-        .d-icon {
-            color: $black !important;
-        }
+	a {
+		.d-icon {
+			color: $black !important;
+		}
 
-        &:hover,
-        &:active,
-        &:focus {
-            background-color: transparent !important;
+		&:active,
+		&:focus,
+		&:hover {
+			background-color: transparent !important;
 
-            .d-icon {
-                color: $dark-red !important;
+			.d-icon {
+				color: $dark-red !important;
 
-            }
-        }
-    }
+			}
+		}
+	}
 
-    .active {
-        a {
-            background-color: $white !important;
+	.active {
+		a {
+			background-color: $white !important;
 
-            .d-icon {
-                color: $dark-red !important;
-            }
+			.d-icon {
+				color: $dark-red !important;
+			}
 
-            &:hover,
-            &:active,
-            &:focus {
-                background-color: $white !important;
-            }
-        }
-    }
+			&:active,
+			&:focus,
+			&:hover {
+				background-color: $white !important;
+			}
+		}
+	}
 
 }
 
 .banner {
-    background-color: $dark-blue;
-    margin: -30px auto 30px;
-    padding: 50px 0;
-    text-align: center;
-    position: relative;
-    font-family: $font1;
-    font-weight: 700;
-    font-size: 36px;
+	background-color: $dark-blue;
+	margin: -30px auto 30px;
+	padding: 50px 0;
+	text-align: center;
+	position: relative;
+	font-family: $font1;
+	font-weight: 700;
+	font-size: 36px;
 
-    &:after {
-        position: absolute;
-        content: '';
-        height: 100%;
-        width: 100%;
-        right: 100%;
-        background-color: $dark-blue;
-        top: 0;
-    }
+	&:after {
+		position: absolute;
+		content: '';
+		height: 100%;
+		width: 100%;
+		right: 100%;
+		background-color: $dark-blue;
+		top: 0;
+	}
 
-    &:before {
-        position: absolute;
-        content: '';
-        height: 100%;
-        width: 100%;
-        left: 100%;
-        background-color: $dark-blue;
-        top: 0;
-    }
+	&:before {
+		position: absolute;
+		content: '';
+		height: 100%;
+		width: 100%;
+		left: 100%;
+		background-color: $dark-blue;
+		top: 0;
+	}
 }
-
 
 //tables
 
 .groups-table {
-    background-color: $white;
-    padding: 10px;
+	background-color: $white;
+	padding: 10px;
 }
 
 .me {
-    background-color: $yellow !important;
+	background-color: $yellow !important;
 
-    span {
-        color: $black !important;
-    }
+	span {
+		color: $black !important;
+	}
 }
 
 #list-area {
-    background: $white;
-    border: 2px solid $black;
-    z-index: 5;
+	background: $white;
+	border: 2px solid $black;
+	z-index: 5;
 
-    tbody {
-        border-top: 0;
-    }
+	tbody {
+		border-top: 0;
+	}
 
-    .topic-list {
-        margin-bottom: 0;
+	.topic-list {
+		margin-bottom: 0;
 
-        thead {
-            background-color: $yellow;
+		thead {
+			background-color: $yellow;
 
-            tr {
-                border-bottom: 0;
-                height: 55px;
+			tr {
+				border-bottom: 0;
+				height: 55px;
 
-                th {
-                    background: transparent;
-                    color: $black;
+				th {
+					background: transparent;
+					color: $black;
 
-                    &.sortable {
-                        color: $black;
+					&.sortable {
+						color: $black;
 
-                        &:hover,
-                        &:active,
-                        &:focus {
-                            color: $dark-red;
-                            outline: none;
-                        }
-                    }
+						&:active,
+						&:focus,
+						&:hover {
+							color: $dark-red;
+							outline: none;
+						}
+					}
 
-                    .bulk-select {
-                        background-color: transparent !important;
-                        padding: 0 10px 0 0 !important;
-                        border: 0 !important;
+					.bulk-select {
+						background-color: transparent !important;
+						padding: 0 10px 0 0 !important;
+						border: 0 !important;
 
-                        .d-icon {
-                            color: $black !important;
-                        }
+						.d-icon {
+							color: $black !important;
+						}
 
-                        &:hover,
-                        &:active,
-                        &:focus {
+						&:active,
+						&:focus,
+						&:hover {
 
-                            border: 0 !important;
+							border: 0 !important;
 
-                            .d-icon {
-                                color: $dark-red !important;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
+							.d-icon {
+								color: $dark-red !important;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 
-    .footer-message {
-        padding-left: 10px;
-    }
+	.footer-message {
+		padding-left: 10px;
+	}
 
 }
 
 .user-table {
-    background-color: $white;
-    padding: 10px;
-    box-sizing: border-box;
+	background-color: $white;
+	padding: 10px;
+	box-sizing: border-box;
 }
 
 // lists
 
-
 .action-list {
-    a {
-
-        &:hover,
-        &:active,
-        &:focus {
-            color: $dark-red !important;
-        }
-    }
+	a {
+		&:active,
+		&:focus,
+		&:hover {
+			color: $dark-red !important;
+		}
+	}
 }
 
 .is-focused {
-    outline: none !important;
+	outline: none !important;
 }
 
 .select-kit-body {
-    box-shadow: none !important;
-    border: 1px solid $black !important;
-    margin-bottom: 40px;
+	box-shadow: none !important;
+	border: 1px solid $black !important;
+	margin-bottom: 40px;
 
-    .select-kit-row {
-        .desc {
-            color: $black !important;
-        }
+	.select-kit-row {
+		.desc {
+			color: $black !important;
+		}
 
-        &.is-highlighted {
-            background-color: $aqua !important;
-            color: $black !important;
-        }
+		&.is-highlighted {
+			background-color: $aqua !important;
+			color: $black !important;
+		}
 
-        .d-icon {
-            color: $black !important;
-        }
+		.d-icon {
+			color: $black !important;
+		}
 
-        &.is-selected {
-            background-color: $green !important;
-            color: $black !important;
-        }
-    }
+		&.is-selected {
+			background-color: $green !important;
+			color: $black !important;
+		}
+	}
+}
+
+.body-page {
+	background-color: $white;
+	padding: 10px;
 }
